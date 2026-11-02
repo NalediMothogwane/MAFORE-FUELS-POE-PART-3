@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enquiry</title>
+    
+    <!-- SEO Description -->
+    <meta name="description" content="Send an enquiry to MAFORE FUELS (MFR Fuels) about petrol, diesel, fuel prices, product availability and services offered in Mooihoek, Tsimanyane, Limpopo.">
+
+    <!-- SEO Keywords -->
+    <meta name="keywords" content="MAFORE FUELS enquiries, MFR Fuels enquiries, petrol enquiries, diesel enquiries, fuel availability, fuel prices, fuel services, customer enquiries">
+
+    <!-- Website Author -->
+    <meta name="Mothogwane Naledi" content="Mafore Fuels">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <header>
+        <img src="Images/LOGO.jpg" style="width: 100px;height: 120px;">
+        <h1>MAFORE FUELS</h1>
+        <p><Strong>Fueling Every Journey With Excellence</Strong></p>
+
+        <nav>
+            <a href="Index.html">Home</a>
+            <a href="About.html">About us</a>
+            <a href="Products and services.html">Products and Services</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Fuel-Prices.html">Fuel Prices</a>
+            <a href="Promotions.html">Promotions</a>
+            <a href="FAQS.html">FAQS</a>
+            <a href="Contact.html">Contact Us</a>
+            <a href="enquiry.html">Enquiry</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section>
+            <h2>Make an Enquiry</h2>
+
+            <p>
+                Welcome to MFR Fuels. Please complete the form below
+                to enquire about our fuel products and services.
+            </p>
+
+            <form id="enquiryForm">
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name">
+                <span id="nameError" class="error"></span>
+                <br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email">
+                <span id="emailError" class="error"></span>
+                <br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone">
+                <span id="phoneError" class="error"></span>
+                <br><br>
+
+                <label for="enquiryType">Type of Enquiry:</label><br>
+                <select id="enquiryType" name="enquiryType">
+                    <option value="">Select Enquiry Type</option>
+                    <option value="Fuel Prices">Fuel Prices</option>
+                    <option value="Fuel Availability">Fuel Availability</option>
+                    <option value="Products">Products</option>
+                    <option value="Services">Services</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <span id="enquiryTypeError" class="error"></span>
+
+                <br><br>
+
+                <label for="fuelType">Select Fuel Type:</label><br>
+                <select id="fuelType" name="fuelType">
+                    <option value="">Select Fuel Type</option>
+                    <option value="Petrol">Petrol</option>
+                    <option value="Diesel">Diesel</option>
+                    <option value="Not Applicable">Not Applicable</option>
+                </select>
+
+                <span id="fuelTypeError" class="error"></span>
+
+                <br><br>
+
+                <label for="message">Your Enquiry:</label><br>
+                <textarea id="message" name="message"
+                          rows="5" cols="30"></textarea>
+
+                <span id="messageError" class="error"></span>
+
+                <br><br>
+
+                <input type="submit" value="Submit Enquiry">
+
+            </form>
+
+            <p id="response"></p>
+
+        </section>
+    </main>
+
+    <hr>
+
+    <footer>&copy;ST10501363</footer>
+
+    <script src="JavaScript/secondScript.js"></script>
+
+</body>
+</html>
