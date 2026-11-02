@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us</title>
+    <!-- SEO Description -->
+    <meta name="description"
+        content="Contact MAFORE FUELS (MFR Fuels) for general enquiries, complaints, compliments and suggestions. Find our contact details and location in Mooihoek, Tsimanyane, Marble Hall, Limpopo.">
+
+    <!-- SEO Keywords -->
+    <meta name="keywords"
+        content="Contact MAFORE FUELS, MFR Fuels contact details, petrol station contact, fuel enquiries, customer support, Mooihoek, Tsimanyane, Marble Hall">
+
+    <!-- Website Author -->
+    <meta name="Mothogwane Naledi" content="Mafore Fuels">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="Images/LOGO.jpg" style="width: 100px;height: 120px;">
+        <h1>MAFORE FUELS</h1>
+        <p><Strong>Fueling Every Journey With Excellence</Strong></p>
+
+        <nav>
+            <a href="Index.html">Home</a>
+            <a href="About.html">About us</a>
+            <a href="Products and services.html">Products and Services</a>
+            <a href="Gallery.html">Gallery</a>
+            <a href="Fuel-Prices.html">Fuel Prices</a>
+            <a href="Promotions.html">Promotions</a>
+            <a href="FAQS.html">FAQS</a>
+            <a href="Contact.html">Contact Us</a>
+            <a href="enquiry.html">Enquiry</a>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <section>
+            <h2>Contact Information</h2>
+
+            <p>
+                <strong>Phone:</strong>
+                013261000
+            </p>
+
+            <p>
+                <strong>Email:</strong>
+                info@mfrfuels.co.za
+            </p>
+
+            <p>
+                <strong>Opening Hours:</strong>
+                Monday - Sunday, 06:00-22:00
+            </p>
+        </section>
+
+        <section>
+            <h2>Our Location</h2>
+
+            <address>
+                Mooihoek 1281<br>
+                Tsimanyane<br>
+                Marble Hall<br>
+                Limpopo<br>
+                South Africa
+            </address>
+        </section>
+
+        <section>
+            <h2>Get Directions</h2>
+
+            <p>
+                Find your way to MFR Fuels using Google Maps.
+            </p>
+
+            <a href="https://www.google.com/maps/search/?api=1&query=Mooihoek+1281+Tsimanyane+Marble+Hall+Limpopo"
+                target="_blank">
+                Open Google Maps
+            </a>
+        </section>
+
+        <section>
+            <h2>Send Us a Message</h2>
+
+            <p>
+                Please complete the form below to send a message
+                to MFR Fuels.
+            </p>
+
+            <form id="contactForm">
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name">
+                <span id="nameError" class="error"></span>
+                <br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email">
+                <span id="emailError" class="error"></span>
+                <br><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone">
+                <span id="phoneError" class="error"></span>
+                <br><br>
+
+                <label for="messageType">Type of Message:</label><br>
+
+                <select id="messageType" name="messageType">
+                    <option value="">Select Message Type</option>
+                    <option value="General Enquiry">General Enquiry</option>
+                    <option value="Complaint">Complaint</option>
+                    <option value="Compliment">Compliment</option>
+                    <option value="Suggestion">Suggestion</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <span id="messageTypeError" class="error"></span>
+
+                <br><br>
+
+                <label for="message">Full Message:</label><br>
+
+                <textarea id="message" name="message" rows="5" cols="30"></textarea>
+
+                <span id="messageError" class="error"></span>
+
+                <br><br>
+
+                <input type="submit" value="Send Message">
+
+                <p id="response"></p>
+
+            </form>
+
+            <p id="response"></p>
+
+        </section>
+
+    </main>
+
+    <hr>
+
+    <footer>&copy;ST10501363</footer>
+
+    <script src="JavaScript/script.js"></script>
+
+</body>
+
+</html>
